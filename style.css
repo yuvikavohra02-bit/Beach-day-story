@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color:#4a5a5c;
+  background: #fdf6ec;
+}
+
+.parallax {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: scroll;
+}
+
+.hero {
+  background-image: url("images/img.jpg");
+}
+
+.flowers {
+  background-image: url("images/img1.jpg");
+}
+.beach {
+  background-image: url("images/img3.jpg") ;
+}
+.toy {
+  background-image: url("images/img5.jpg") ;
+}
+.leaving {
+  background-image: url("images/img6.jpg") ;
+}
+
+.Crepes {
+  background-image: url("images/img7.jpg") ;
+}
+.content {
+  min-height: 45vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 60px;
+  background: #f9e8d5;
+}
+
+.card {
+  background: rgba(255, 248, 238, 0.82);
+
+  padding: 30px 40px;
+
+  border-radius: 18px;
+  border:2px solid rgba(70,60,50,0.12);
+  box-shadow: 0 5px 20px rgba(70, 60, 50, 0.12);
+
+  backdrop-filter: blur(6px);
+
+  max-width: 500px;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
+  color: #3f6f73;
+
+
+}
+
+p {
+  line-height: 1.6;
+  color:#5f6666;
+}
